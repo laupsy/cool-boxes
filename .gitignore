@@ -1,0 +1,5 @@
+node_modules
+public
+.cache
+src/.DS_Store
+.DS_Store
