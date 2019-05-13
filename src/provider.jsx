@@ -2,10 +2,6 @@ import React, { Fragment } from "react";
 import { createGlobalStyle, ThemeProvider } from "styled-components";
 import { Normalize } from "styled-normalize";
 import { Helmet } from "react-helmet";
-import AppleTouchIcon from "./assets/apple-touch-icon.png";
-import FaviconSmall from "./assets/favicon-16x16.png";
-import FaviconMedium from "./assets/favicon-32x32.png";
-import * as fonts from "./assets/fonts";
 
 const GlobalStyles = createGlobalStyle`
   @import url('https://rsms.me/inter/inter.css');
@@ -52,9 +48,6 @@ const Provider = ({ children }) => (
           name="google-site-verification"
           content="Vlg5epzrR1VxvAivw9l_LE39PO122SYU3sjBqaECGzo"
         />
-        <link rel="apple-touch-icon" sizes="180x180" href={AppleTouchIcon} />
-        <link rel="icon" type="image/png" sizes="32x32" href={FaviconMedium} />
-        <link rel="icon" type="image/png" sizes="16x16" href={FaviconSmall} />
         <title>Coooooooool boxes</title>
       </Helmet>
       <GlobalStyles />
